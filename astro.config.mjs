@@ -1,7 +1,8 @@
-// @ts-check
+// astro.config.mjs
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
 export default defineConfig({
-    site: 'https://koustav-bordoloi.github.io',
+  site: 'https://koustav-bordoloi.github.io/astro-strapi-blog',
+  base: '/astro-strapi-blog/',
+  output: 'static',
 });
